@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--https://williamgrimes.me-->
+<!--https://www.linkedin.com/in/william-b-grimes/-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <img src="https://images.unsplash.com/photo-1611762348135-5b09d2f0390d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                alt="paddles" id="topImg">
+        </div>
+        <div class="colorGroup">
+            <div class="row">
+                <div id="ppsk">Ping Pong Score Keeper</div>
+            </div>
+            <div class="row" id="selections">
+                <div class="row">
+                    <div id="score">0 to 0</div>
+                </div>
+                <div class="row">
+                    <div id="instructions">Use the buttons below to keep score.</div>
+                </div>
+                <div class="row">
+                    <label name="playingTo" id="playingToLabel">Playing to</label>
+                    <select name="playingTo" id="playingTo">
+                        <option value="5">5</option>
+                        <option value="7">7</option>
+                        <option value="11">11</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="options">
+            <button class="choiceBtn" id="p1" type="button">+1 Player One</button>
+            <button class="choiceBtn" id="p2" type="button">+1 Player Two</button>
+            <button class="choiceBtn" id="reset" type="button">Reset</button>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

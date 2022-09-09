@@ -1,0 +1,95 @@
+body {
+    background-color: lightgray;
+}
+
+#topImg {
+    width: 550px;
+    height: 400px;
+    margin-top: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.colorGroup {
+    margin: auto;
+    width: 550px;
+    background-color: #FCFBFB;
+}
+
+#ppsk {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 800;
+    box-shadow: 0px 0px 5px gray;
+    z-index: -1;
+    padding: 1em 0px 1em 10px;
+    clip-path: inset(-1em -1em 0em -1em);
+}
+
+#selections {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .8em 0px 1em 10px;
+    box-shadow: 0px 0px 5px gray;
+    display: block;
+}
+
+#score {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: .2em;
+}
+
+#options {
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.choiceBtn {
+    display: flex;
+    border: solid black 1px;
+    text-align: center;
+    width: 33.33333333%;
+    justify-content: center;
+    padding: 1em 0px;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+}
+
+.choiceBtn:hover {
+    transform: translateY(-0.1em);
+    box-shadow: 0 0.5em 0.5em -0.4em #D6711C;
+    cursor: pointer;
+}
+
+#p1 {
+    background-color: #29CB6F;
+}
+
+#p2 {
+    background-color: #29AFEC;
+}
+
+#reset {
+    background-color: #F23E17;
+}
+
+#playingToLabel {
+    font-weight: 700;
+}
+
+#playingTo {
+    font-weight: 700;
+    padding: 1em 0em 0.5em 0em;
+    padding: .25em .5em;
+    margin-top: .5em;
+    border-radius: 30px;
+}
